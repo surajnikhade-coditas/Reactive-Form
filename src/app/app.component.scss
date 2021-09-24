@@ -1,16 +1,18 @@
 .page-main {
-  background-color: rgb(241, 241, 241);
+  background-color: #20232a;
+  font-family: "Righteous", cursive;
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   .form-container {
-    background-color: white;
+    background-color: rgb(227, 230, 241);
     border-radius: 4px;
+
     padding: 4rem;
     width: 25%;
-    box-shadow: 4px 4px 8px 4px rgb(177, 176, 176);
+    box-shadow: 2px 2px 4px 2px rgb(221, 235, 248);
     display: flex;
     flex-direction: column;
   }
@@ -24,5 +26,25 @@
       border-radius: 4px;
       box-sizing: border-box;
     }
+  }
+}
+.btn {
+  background-color: rgb(157, 230, 157);
+  color: #20232a;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0;
+  min-width: 64px;
+  line-height: 36px;
+  padding: 0 16px;
+  border-radius: 4px;
+  &:hover {
+    background-color: #20232a;
+    color: rgb(157, 230, 157);
+    transition: 1000ms;
+  }
+  &:active {
+    background-color: #20232a;
+    color: rgb(84, 224, 84);
   }
 }
